@@ -1,7 +1,7 @@
 # USD/JPY Time-Series Forecasting
 
 ## Overview
-This project studies monthly USD/JPY dynamics and evaluates whether macro-financial information improves short-horizon forecasting relative to a simple autoregressive benchmark.
+This project studies monthly **USD/JPY** dynamics and evaluates whether macro-financial information improves short-horizon forecasting relative to a simple autoregressive benchmark.
 
 The analysis combines USD/JPY, USD/CHF and the US-Japan inflation differential, using autoregressive and ADL models, stationarity diagnostics, a structural-break control and out-of-sample forecast evaluation.
 
@@ -21,8 +21,8 @@ Can lagged exchange-rate dynamics and macro-financial variables improve forecast
 The richer ADL specification produced only a marginal improvement over the simple AR benchmark, highlighting the difficulty of forecasting exchange rates and the importance of out-of-sample model comparison.
 
 ## Repository Structure
-- `usd_jpy_forecasting.R` — complete R analysis
-- `data/` — monthly USD/JPY, USD/CHF and CPI series
+- `usd_jpy_forecasting.R` — curated portfolio version of the R workflow
+- `data/README.md` — input-data documentation
 
 ## Skills Demonstrated
 Time series · Forecasting · AR/ADL models · Structural breaks · Model evaluation · R
